@@ -18,20 +18,3 @@ window.onscroll = () =>{
         }
     }
 }
-
-setTimeout(() =>{
-    showModal();
-}, 5000);
-
-function showModal(){
-    modal.style.display = "block";
-    header.classList.remove('active');
-}
-
-function closeModal(){
-    modal.style.display = "none";
-}
-
-function isModalOpen(){
-    return modal.style.display === "block";
-}
